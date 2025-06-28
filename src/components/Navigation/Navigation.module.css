@@ -1,0 +1,20 @@
+.navigation{
+    display: flex;
+    height: 72px;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+ .navigation ul{
+    list-style-type: none;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navigation ul li {
+    font-size: large;
+    font-weight: 600;
+    grid-row: 5px;
+}
